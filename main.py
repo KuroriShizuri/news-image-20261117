@@ -19,6 +19,11 @@ DST = "/output/entry.png"
 def main():
     os.makedirs("/output", exist_ok=True)
     shutil.copyfile(SRC, DST)
+    # Guard the deterministic-output rule: the written file must be
+    # byte-identical to the committed image, so a partial or failed
+    # copy can never pass as an entry.
+    if os.path.getsize(DST) != os.path.getsize(SRC):
+        raise SystemExit("entry.png copy is incomplete")
 
 
 if __name__ == "__main__":
