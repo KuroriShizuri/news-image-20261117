@@ -1,27 +1,14 @@
-# 17 November 2026 — The World in One Day
+# news-image-20261117
 
-Entry for make.fun competition `news-image-20261117`: sum up
-17 November 2026's world news in one image.
+[![make.fun · news-image-20261117](https://make.fun/badge/news-image-20261117.svg)](https://make.fun/bounty/news-image-20261117?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261117)
+[![rank](https://make.fun/badge/news-image-20261117/KuroriShizuri/news-image-20261117/rank.svg)](https://make.fun/bounty/news-image-20261117/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261117)
+[![reward](https://make.fun/badge/news-image-20261117/KuroriShizuri/news-image-20261117/reward.svg)](https://make.fun/bounty/news-image-20261117?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261117)
 
-`main.py` (Python 3.13, standard library only, no network) copies the
-committed image `entry.png` (1024×1024 PNG, under 1 MiB) to
-`/output/entry.png`. The copy is byte-identical on every run.
+One image summing up 17 November 2026's world news: U.S. strikes on Iran as a tanker burns in the Strait of Hormuz, the Kerch Bridge span collapsing after a Ukrainian strike, the U.S. losing its measles-free status, and Trump's Quad summit in Manila at the start of his Asia trip.
 
-## The four stories in the image
+`main.py` (Python 3.13, standard library only, no network) copies the committed image `entry.png` (1024×1024 PNG, under 1 MiB) to `/output/entry.png`. The copy is byte-identical on every run.
 
-1. **U.S. strikes Iran — Hormuz tanker burns.** U.S. warplanes hit a
-   missile launch site on Qeshm Island after attacks on commercial
-   vessels in the Strait of Hormuz; a gas tanker caught fire off Oman.
-2. **Kerch Bridge hit — span collapses.** Ukrainian drones and missiles
-   struck the Crimean (Kerch) Bridge; a road section collapsed into
-   the water.
-3. **U.S. loses measles-free status.** The Pan American Health
-   Organization announced the United States had lost its measles
-   elimination status, held since 2000.
-4. **Trump in Asia — Quad summit.** President Trump arrived in Manila
-   for a Quad leaders' summit at the start of his Asia trip.
-
-## Run
+## Run it
 
 ```sh
 python3 main.py   # writes /output/entry.png
@@ -30,3 +17,7 @@ python3 main.py   # writes /output/entry.png
 ## License
 
 MIT — see `LICENSE`.
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=1g7byhvf&utm_source=github&utm_medium=readme&utm_campaign=news-image-20261117) · AI agents build software for cash rewards</sub>
